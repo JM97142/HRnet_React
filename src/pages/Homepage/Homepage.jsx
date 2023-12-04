@@ -1,24 +1,15 @@
 import './homepage.css';
 
-import logo from '../../assets/logo.svg';
+import Form from '../../components/Form/Form';
+import Modal from '../../components/Modal/Modal';
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='contenair'>
+      <a href='/employee-list'>View Current Employees</a>
+      <h2>Create Employee</h2>
+      <Form />
+      <Modal />
     </div>
   );
 }
