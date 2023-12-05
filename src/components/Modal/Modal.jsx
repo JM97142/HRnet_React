@@ -1,3 +1,5 @@
+import './modal.css'
+
 function Modal() {
     return (
         <div id='confirmation' className='modal'>
