@@ -9,7 +9,7 @@ import store from './redux/store';
 // Components
 import Header from './components/Header/Header';
 import Home from './pages/Homepage/Homepage';
-import EmployeeList from './pages/Employee-List/Employee-list';
+import EmployeeList from './pages/Employee-List/EmployeeList'
 
 const contenair = document.getElementById('root');
 const root = createRoot(contenair);
