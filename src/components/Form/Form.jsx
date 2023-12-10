@@ -64,8 +64,8 @@ function Form() {
     }
 
     return (
-        <section>
-            <form action='#' id='create-employee'>
+        <section className='create-employee-section'>
+            <form action='#' id='create-employee-form'>
                 <label htmlFor='first-name'>First Name</label>
                 <input id='first-name' type='text' placeholder='John' onChange={(e) => setFirstName(e)} />
 
@@ -113,7 +113,7 @@ function Form() {
                     placeholder={'Select a department'}
                 />
             </form>
-            <button onClick={createEmployee}>Save</button>
+            <button className='save-button' onClick={createEmployee}>Save</button>
             {activeModal && (
                 <Modal message={'Employee created !'} close={closeModal} />
             )}

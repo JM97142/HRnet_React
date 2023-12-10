@@ -7,3 +7,27 @@ label {
 .address {
     margin-top: 10px;
 }
+
+.create-employee-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#create-employee-form input {
+    width: 31.25rem;
+    margin: 0.313rem 0;
+    text-align: left;
+    padding: 12px 8px;
+    border: 1px solid rgb(209 213 219);
+    border-radius: 5px;
+}
+
+.save-button {
+    margin-top: 20px;
+    padding: 10px 40px;
+    background-color: #399350;
+    color: #fff;
+    border-radius: 5px;
+}
