@@ -1,4 +1,4 @@
-export const departements = [
+export const departments = [
     "Sales",
     "Marketing",
     "Engineering",
@@ -246,5 +246,5 @@ export const states = [
 ]
 
 export const data = {
-    departements, states
+    departments, states
 }
