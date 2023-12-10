@@ -3,6 +3,9 @@ import './index.css';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+// Redux
+import { Provider } from 'react-redux';
+import store from './redux/store';
 // Components
 import Header from './components/Header/Header';
 import Home from './pages/Homepage/Homepage';
@@ -12,13 +15,15 @@ const contenair = document.getElementById('root');
 const root = createRoot(contenair);
 
 root.render(
-  <React.StrictMode>
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path='/employee-list' element={<EmployeeList />} />
-      </Routes>
-    </Router>
-  </React.StrictMode>
+  <Provider store={store}>
+    <React.StrictMode>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path='/employee-list' element={<EmployeeList />} />
+        </Routes>
+      </Router>
+    </React.StrictMode>
+  </Provider>
 );

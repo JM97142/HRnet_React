@@ -1,6 +1,8 @@
 import './form.css'
 
-import { states } from '../../data/data'
+import ReactDatePicker from 'react-datepicker'
+
+import { data } from '../../data/data'
 
 function Form() {
     // $( function() {

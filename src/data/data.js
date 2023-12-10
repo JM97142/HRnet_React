@@ -1,3 +1,11 @@
+export const departements = [
+    "Sales",
+    "Marketing",
+    "Engineering",
+    "Human Ressources",
+    "Legal"
+]
+
 export const states = [
     {
         "name": "Alabama",
@@ -236,3 +244,7 @@ export const states = [
         "abbreviation": "WY"
     }
 ]
+
+export const data = {
+    departements, states
+}
