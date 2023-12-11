@@ -76,7 +76,6 @@ function Form() {
                 <ReactDatePicker
                     selected={birthDate}
                     name='birthdate'
-                    dateFormat={'dd/MM/yyyy'}
                     onChange={(date) => setbirthDate(date)}
                 />
 
@@ -84,7 +83,6 @@ function Form() {
                 <ReactDatePicker
                     selected={startDate}
                     name='startdate'
-                    dateFormat={'dd/MM/yyyy'}
                     onChange={(date) => setStartDate(date)}
                 />
                 <fieldset className='adress'>
@@ -97,6 +95,7 @@ function Form() {
 
                     <label htmlFor=''>State</label>
                     <ReactDropdown
+                        controlClassName='form-dropdown'
                         options={option}
                         onChange={(e) => setState(e.value)}
                         placeholder={'Select a state'}

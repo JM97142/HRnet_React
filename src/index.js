@@ -8,7 +8,7 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 // Components
 import Header from './components/Header/Header';
-import Home from './pages/Homepage/Homepage';
+import CreateEmployee from './pages/Homepage/CreateEmployee';
 import EmployeeList from './pages/Employee-List/EmployeeList'
 
 const contenair = document.getElementById('root');
@@ -20,7 +20,7 @@ root.render(
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<CreateEmployee />} />
           <Route path='/employee-list' element={<EmployeeList />} />
         </Routes>
       </Router>

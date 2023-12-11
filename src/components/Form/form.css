@@ -12,7 +12,6 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
 }
 
 #create-employee-form input {
@@ -22,6 +21,10 @@ label {
     padding: 12px 8px;
     border: 1px solid rgb(209 213 219);
     border-radius: 5px;
+}
+
+.form-dropdown {
+    border-color: #0055ff;
 }
 
 .save-button {
