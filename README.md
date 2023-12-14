@@ -20,9 +20,11 @@
 ### Custom Plugin React component modal
 
 - Lien-GitHub :https://github.com/JM97142/HRnet_Modal_Component
+- Intallation : `npm i @jmtaret/react-modal`
 
 ### Dependencies Required
 
+    "@jmtaret/react-modal": "^1.0.7",
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
