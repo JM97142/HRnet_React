@@ -5,7 +5,10 @@ import { useMemo } from "react";
 import { useSelector } from "react-redux";
 
 function Table() {
+    // Stockage de l'ensemble du store
     const employeeList = useSelector((state) => state.employee.employees)
+
+    // Data static
     const columns = useMemo(
         () => [
             {

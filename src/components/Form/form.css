@@ -8,10 +8,9 @@ label {
     margin-top: 10px;
 }
 
-.create-employee-section {
+#create-employee-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 #create-employee-form input {
@@ -23,7 +22,7 @@ label {
     border-radius: 5px;
 }
 
-.form-dropdown {
+.form-dropdown:focus {
     border-color: #0055ff;
 }
 

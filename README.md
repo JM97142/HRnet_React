@@ -37,9 +37,9 @@
     "react-router-dom": "^6.20.1",
     "react-scripts": "5.0.1"
 
-### Installing and launching Back-End
+### Installing and launching Front-End
 
-Clone the Back-End:
+Clone the Front-End:
 
 `git clone` https://github.com/JM97142/HRnet_React
 
@@ -52,3 +52,8 @@ Lauch Front-End on port 3000:
 `npm start`
 
 Front-End launch at URL `http://localhost:3000`
+
+Build production App:
+
+`npm run build`
+
