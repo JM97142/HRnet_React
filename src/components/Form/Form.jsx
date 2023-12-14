@@ -76,6 +76,7 @@ function Form() {
                 <ReactDatePicker
                     selected={birthDate}
                     name='birthdate'
+                    dateFormat={'dd/MM/yyyy'}
                     onChange={(date) => setbirthDate(date)}
                 />
 
@@ -83,6 +84,7 @@ function Form() {
                 <ReactDatePicker
                     selected={startDate}
                     name='startdate'
+                    dateFormat={'dd/MM/yyyy'}
                     onChange={(date) => setStartDate(date)}
                 />
                 <fieldset className='adress'>
